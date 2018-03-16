@@ -35,7 +35,6 @@ install_emacs_lunfardo()
 	if [ ! -d "~/.emacs.d/" ]
 	then
 		git clone --depth=1 https://github.com/unbalancedparentheses/emacs-lunfardo.git ~/.emacs.d/
-		open /Applications/Emacs.app/
 	fi
 }
 
