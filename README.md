@@ -99,5 +99,5 @@ rm -rf st
 - [boot](http://leiningen.org/) - automating Clojure projects without setting your hair on fire
 
 ##nodejs
-- [nodejs](https://github.com/postmodern/ruby-install) - installs different ruby versions and implementations
-- [npm](https://github.com/postmodern/chruby) - package manager
+- [nodejs](https://github.com/nodejs/node)  
+- [npm](https://github.com/npm/npm) - package manager
