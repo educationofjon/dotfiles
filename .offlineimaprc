@@ -1,0 +1,36 @@
+[general]
+accounts = work, personal
+pythonfile = ~/.offlineimap.py
+
+[Account personal]
+localrepository = personal-local
+remoterepository = personal-remote
+status_backend = sqlite
+
+[Repository personal-local]
+type = Maildir
+localfolders = ~/.mail/personal
+
+[Repository personal-remote]
+maxconnections = 1
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+type = Gmail
+remoteuser = rojikkushisutemu@gmail.com
+remotepasseval = get_pass("rojikkushisutemu@gmail.com")
+keepalive = 60
+holdconnectionopen = yes
+folderfilter = lambda folder: folder not in ['[Gmail]/Trash',
+                                             '[Gmail]/Important',
+                                             '[Gmail]/Spam',
+                                             '[Gmail]/Starred',
+                                             '[Gmail]/Drafts',
+                                             '[Gmail]/All Mail',
+                                             '[Gmail]/Chats',
+                                             ]
+[mbnames]
+enabled = yes
+filename = ~/.mutt/mailboxes
+header = "mailboxes "
+peritem = "+%(accountname)s/%(foldername)s"
+sep = " "
+footer = "\n"

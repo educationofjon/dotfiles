@@ -1,0 +1,36 @@
+[2016-06-04 11:49:44] WeeChat 1.5 (compiled on May  1 2016 21:13:56)
+[2016-06-04 11:49:44] Reading configuration file sec.conf
+[2016-06-04 11:49:45] Reading configuration file weechat.conf
+[2016-06-04 11:49:45] Reading configuration file plugins.conf
+[2016-06-04 11:49:45] Reading configuration file charset.conf
+[2016-06-04 11:49:45] Reading configuration file logger.conf
+[2016-06-04 11:49:45] Reading configuration file exec.conf
+[2016-06-04 11:49:45] Reading configuration file trigger.conf
+[2016-06-04 11:49:45] Reading configuration file alias.conf
+[2016-06-04 11:49:45] Reading configuration file xfer.conf
+[2016-06-04 11:49:45] Reading configuration file irc.conf
+[2016-06-04 11:49:45] Reading configuration file relay.conf
+[2016-06-04 11:49:46] Reading configuration file autosort.conf
+[2016-06-04 11:49:46] Writing configuration file autosort.conf
+[2016-06-04 11:49:46] Reading configuration file iset.conf
+[2016-06-04 11:49:46] Reading configuration file buffers.conf
+[2016-06-04 11:49:46] Reading configuration file script.conf
+[2016-06-04 11:49:46] irc: connecting to server irc.freenode.net/6667...
+[2016-06-04 11:49:46] irc: connecting to server irc.nixers.net/6667...
+[2016-06-04 14:42:58] Signal SIGHUP received, exiting WeeChat...
+[2016-06-04 14:42:58] Terminal lost, exiting WeeChat...
+[2016-06-04 14:42:58] Writing configuration file plugins.conf
+[2016-06-04 14:42:58] Writing configuration file xfer.conf
+[2016-06-04 14:42:58] Writing configuration file exec.conf
+[2016-06-04 14:42:58] Writing configuration file alias.conf
+[2016-06-04 14:42:58] Writing configuration file irc.conf
+[2016-06-04 14:42:58] Writing configuration file logger.conf
+[2016-06-04 14:42:58] Writing configuration file script.conf
+[2016-06-04 14:42:58] Writing configuration file buffers.conf
+[2016-06-04 14:42:58] Writing configuration file iset.conf
+[2016-06-04 14:42:58] Writing configuration file relay.conf
+[2016-06-04 14:42:58] Writing configuration file charset.conf
+[2016-06-04 14:42:58] Writing configuration file trigger.conf
+[2016-06-04 14:42:58] Writing configuration file autosort.conf
+[2016-06-04 14:42:58] Writing configuration file weechat.conf
+[2016-06-04 14:42:58] Writing configuration file sec.conf
