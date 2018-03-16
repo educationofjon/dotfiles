@@ -12,7 +12,6 @@ print_install()
 
 install_tools()
 {
-	brew cask install java
 	pacman -S fish mosh fzf weechat wget curl tree git tmux vim mc tig
 
 	pacman -S iterm2 emacs firefox chromium caffeine flux qbittorrent the-unarchiver skype vlc spotify appcleaner disk-inventory-x dash
