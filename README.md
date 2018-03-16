@@ -96,7 +96,7 @@ rm -rf st
 - [gvm](https://github.com/moovweb/gvm) - Go version manager
 
 ##clojure
-- [boot](http://leiningen.org/) - automating Clojure projects without setting your hair on fire
+- [boot](http://boot-clj.com/) - automating Clojure projects without setting your hair on fire
 
 ##nodejs
 - [nodejs](https://github.com/nodejs/node)  
