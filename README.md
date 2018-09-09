@@ -3,7 +3,7 @@
 
 #deploy
 ```
-git clone git@github.com:rojii0xff/dotfiles.git ~/dotfiles
+git clone git@github.com:rojii/dotfiles.git ~/dotfiles
 git clone git://git.suckless.org/st
 cd st
 patch -p1 < ~/dotfiles/st/st_colors.patch
@@ -24,8 +24,6 @@ rm -rf st
 - firefox
 - chrome
 - ranger - text based file manager
-- i3 - window manager
-- i3status - status bar
 - slock - simple X display locker
 - clipit - clipboard manager and synchronize PRIMARY, CLIPBOARD and cut buffer selections
 - dmenu
@@ -38,8 +36,6 @@ rm -rf st
 - feh - setting bg, also nice image viewer
 - scrot
 - udiskie - device automounting
-- dunst - notification manager
-- sysdig - system-level exploration
 - [nethogs](http://nethogs.sourceforge.net/) - net top tool that groups bandwidth by process
 - [infinality](https://wiki.archlinux.org/index.php/Infinality) - improves freetype2 font rendering
 - the silver searcher
@@ -49,12 +45,8 @@ rm -rf st
 - [ngrep](https://twitter.com/b0rk/status/759758932181147648) - grep your network
 - [mtr](http://www.bitwizard.nl/mtr/) - combination of ping and traceroute
 - tinc - simple p2p vpn
-- nmap - network port scanner
-- ansible - simple IT automation platform
 - wireshark - network protocol analyzer
 - mitmproxy - interactive, SSL-capable man-in-the-middle proxy for HTTP with a console interface.
-- vlc - media player
-- tweetdeck - twitter client
 - [flux](https://justgetflux.com/) - makes the color of your computer's display adapt to the time of day
 
 
@@ -86,10 +78,6 @@ rm -rf st
 - [pfff](https://github.com/facebook/pfff)- tools for code analysis, visualizations, or style-preserving source transformation
 - cloc
 - sloccount
-
-##erlang
-- kerl - easy building and installing of Erlang/OTP instances
-- rebar3 - build tool
 
 ##go
 - [gox](https://github.com/mitchellh/gox) - Go cross compile tool
